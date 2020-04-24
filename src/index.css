@@ -1,0 +1,106 @@
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.material-icons {
+    font-size: 2.4em;
+    cursor: pointer;
+}
+
+.card {
+    width: 30%;
+}
+
+.card .card-image .card-title {
+    color: black;
+    font-weight: 400
+}
+
+.cart {
+    margin-top: 40px;
+}
+
+.collection .collection-item {
+    display: flex;
+}
+
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #282c34;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.collection .collection-item img {
+    width: 150px;
+    margin-right: 25px;
+}
+
+.item-desc {
+    align-self: center;
+}
+
+.containerNavBar {
+    width: 100%;
+    align-self: center;
+    padding-left: 1vmin;
+}
+
+.right1 {
+    float: right !important;
+}
+
+.brand-logoNavBar {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+
+.nav-temp {
+    background: #282c34;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 300;
+    right: 5%;
+}
+
+.card-contentHome{
+    padding-left: 2%;
+    border-radius: 0 0 2px 2px;
+
+}
+.btn1{
+    position: absolute;
+right: 24px;
+bottom: -20px;
+}
+.card-titleHome{
+    padding: 1%;
+}
+.cartCss{
+    min-height: 84px;
+    padding-left: 72px;
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    padding-left: 20px;
+    margin: 0;
+border-bottom: 1px solid #e0e0e0;
+}
+.placeOrder{
+    text-align: right !important;
+}
+
+.emptyCart{
+    color: red;
+    font-size: initial;
+}
