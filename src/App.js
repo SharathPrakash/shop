@@ -12,7 +12,7 @@ class App extends Component {
             
               <Navbar/>
                 <Switch>
-                    <Route exact path="/" component={Home}/>
+                    <Route exact path="/home" component={Home}/>
                     <Route path="/cart" component={Cart}/>
                   </Switch>
              </div>
@@ -20,6 +20,7 @@ class App extends Component {
       
     );
   }
+  
 }
 
 export default App;
