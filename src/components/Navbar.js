@@ -8,7 +8,7 @@ class Navbar extends Component {
     return (
         <nav className="nav-wrapper nav-temp">
             <div className="containerNavBar">
-                <Link to="/" className="brand-logoNavBar">Proxelo</Link>
+                <Link to="/" className="brand-logoNavBar">Proxelo1</Link>
 
                 <ul className="right1">
                     <li><Link to="/">Shop</Link></li>
